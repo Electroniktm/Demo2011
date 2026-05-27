@@ -40,3 +40,5 @@ bin/
 
 ### Gradle Wrapper ###
 gradle/wrapper/
+gradlew
+gradlew.bat
