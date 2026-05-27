@@ -27,8 +27,8 @@ public class NegativeTests {
         $("#first-name").setValue("Nikita");
         $("#last-name").setValue("Starkov");
         $("#postal-code").setValue("200600");
+        $("#last-name").shouldHave(attribute("placeholder", "Last Name"));
         $("#continue").click();
-        $("#last-name").shouldHave(attribute("[placeholder=Last Name]"));
         sleep(2000);
     }
 }
